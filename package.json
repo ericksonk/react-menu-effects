@@ -1,10 +1,17 @@
 {
+  "config": {
+    "presets": [
+      "neutrino-preset-airbnb-base",
+      "neutrino-preset-react"
+    ]
+  },
   "scripts": {
-    "start": "neutrino start --presets neutrino-preset-react",
-    "build": "neutrino build --presets neutrino-preset-react"
+    "start": "neutrino start",
+    "build": "neutrino build"
   },
   "devDependencies": {
     "neutrino": "^4.3.1",
+    "neutrino-preset-airbnb-base": "^4.3.1",
     "neutrino-preset-react": "^4.2.3"
   },
   "dependencies": {
